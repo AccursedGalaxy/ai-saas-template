@@ -7,5 +7,7 @@
         pkgs.gopls
         pkgs.gotools
         pkgs.go-tools
+        pkgs.bash
+        pkgs.git
     ];
 } 
