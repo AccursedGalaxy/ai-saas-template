@@ -1,5 +1,6 @@
 hidden = [".git", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 modules = ["bash", "nix"]
+run = "bash ./scripts/run.sh"
 
 [env]
 PYTHON_VERSION = "3.9"
