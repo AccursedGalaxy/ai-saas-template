@@ -1,5 +1,5 @@
-run = "bash ./scripts/run.sh"
 hidden = [".git", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
+modules = ["bash", "nix"]
 
 [env]
 PYTHON_VERSION = "3.9"
@@ -22,4 +22,7 @@ syntax = "go"
 start = "gopls"
 
 [nix]
-channel = "stable-22_11"
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "bash ./scripts/run.sh"]
