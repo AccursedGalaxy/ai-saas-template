@@ -22,4 +22,4 @@ syntax = "go"
 start = "gopls"
 
 [nix]
-channel = "stable-22_11" 
+channel = "stable-22_11"
