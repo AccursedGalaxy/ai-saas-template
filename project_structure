@@ -1,0 +1,22 @@
+.
+├── .github/
+│   └── workflows/
+│       ├── python-ci.yml
+│       └── go-ci.yml
+├── python/
+│   ├── src/
+│   │   └── __init__.py
+│   ├── tests/
+│   │   └── __init__.py
+│   ├── pyproject.toml
+│   └── poetry.lock
+├── go/
+│   ├── cmd/
+│   │   └── main.go
+│   ├── internal/
+│   ├── pkg/
+│   └── go.mod
+├── .replit
+├── replit.nix
+├── .gitignore
+└── README.md 

@@ -1,0 +1,25 @@
+run = "bash ./scripts/run.sh"
+hidden = [".git", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
+
+[env]
+PYTHON_VERSION = "3.9"
+GO_VERSION = "1.21"
+
+[languages]
+
+[languages.python]
+pattern = "**/*.py"
+syntax = "python"
+
+[languages.python.languageServer]
+start = "pylsp"
+
+[languages.go]
+pattern = "**/*.go"
+syntax = "go"
+
+[languages.go.languageServer]
+start = "gopls"
+
+[nix]
+channel = "stable-22_11" 
